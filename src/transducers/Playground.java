@@ -72,10 +72,356 @@ public class Playground {
                 "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
                 "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
                 "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:25:25] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:25:25] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:27:13] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [26/Feb/2015 19:27:13] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.4 - - [26/Feb/2015 19:27:34] \"GET /projects/underarm/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.3 - - [26/Feb/2015 19:27:35] \"GET /static/img/threedots.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [26/Feb/2015 19:27:35] \"GET /blog/2014/transducers-explained-1/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.2 - - [26/Feb/2015 19:45:35] \"GET /blog/2014/transducers-explained-pipelines/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"POST / HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:03] \"GET /static/css/theme.min.css HTTP/1.1\" 200 -\n" +
+                "127.0.0.5 - - [28/Feb/2015 16:44:03] \"GET /static/js/theme.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/simplectic_logo.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/img/icons32px.png HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:04] \"GET /static/favicon.ico HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:06] \"GET /static/js/underarm.min.js HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /projects/flask-todomvc HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/theme.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underscore-1.7.0-min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/es6-promise-2.0.0.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/js/underarm.min.js HTTP/1.1\" 304 -\n" +
+                "127.0.0.1 - - [28/Feb/2015 16:44:08] \"GET /static/img/icons32px.png HTTP/1.1\" 304 -\n" +
+                "127.0.0.3 - - [28/Feb/2015 16:44:30] \"GET /static/resources/OlympicAthletes_head.csv HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -\n" +
+                "127.0.0.1 - - [22/Mar/2015 18:49:09] \"GET /static/css/theme.min.css HTTP/1.1\" 304 -\n" +
                 "127.0.0.1 - - [22/Mar/2015 18:48:30] \"GET /blog/2015/ramda-transducers-logs/ HTTP/1.1\" 200 -";
 
         String lines[] = logFile.split("\\r?\\n");
         System.out.println("lines = " + lines.length);
+
+        ///////////////////////////////////////////////////////////////////////
+        // with streams as baseline
+
         Stream<String > linesStream = Arrays.stream(lines);
 
         Function<String, String[]> ipAndUrlOnly = line -> {
@@ -119,6 +465,7 @@ public class Playground {
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // Now with transducers
 
+
         ITransducer<String, String> filterGets = filter(new Predicate<String>() {
             @Override
             public boolean test(String line) {
@@ -156,7 +503,7 @@ public class Playground {
 
         ITransducer<String, String> fullTransducer = compose(filterGets, compose(filterStatics, compose(keepOnlyWantedParts, compose(makeFullUrl, reStringify))));
 
-        IStepFunction<ArrayList<String>, String> addString = new IStepFunction<ArrayList<String>, String>() {
+        IStepFunction<ArrayList<String>, String> collectResults = new IStepFunction<ArrayList<String>, String>() {
             @Override
             public ArrayList<String> apply(ArrayList<String> result, String input, AtomicBoolean reduced) {
                 result.add(input);
@@ -167,8 +514,9 @@ public class Playground {
         ArrayList<String> initialValue = new ArrayList<String>();
         ArrayList<String> linesList    = new ArrayList<String>(Arrays.asList(lines));
 
-        result = transduce(filterGets, addString, initialValue, linesList);
 
-        System.out.println("transduction result = " + Arrays.toString(result));
+        ArrayList<String> transResult = transduce(fullTransducer, collectResults, initialValue, linesList);
+
+        System.out.println("result = " + transResult.toString());
     }
 }

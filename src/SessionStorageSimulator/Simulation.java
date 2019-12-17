@@ -5,7 +5,7 @@ import SessionStorageSimulator.es.ESSession;
 import SessionStorageSimulator.shared.VisitId;
 import SessionStorageSimulator.storage.SessionStorage;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 
 public class Simulation {
     ES elasticSearch;
@@ -22,9 +22,10 @@ public class Simulation {
 
     public void addVisits(int amount) {
         elasticSearch.addSessions(amount);
+        sessionStorage.addSessions(amount, elasticSearch.getVisitIds());
     }
 
-    public ArrayList<VisitId> getVisitIds() {
+    public HashSet<VisitId> getVisitIds() {
         return  elasticSearch.getVisitIds();
     }
 

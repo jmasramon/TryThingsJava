@@ -22,5 +22,7 @@
     <orderEntry type="library" name="groovy-2.5.4" level="application" />
     <orderEntry type="library" name="groovy-2.5.4" level="application" />
     <orderEntry type="library" name="dumbster1.6" level="project" />
+    <orderEntry type="library" name="lombok" level="project" />
+    <orderEntry type="library" name="com.cognitect:transducers-java:0.4.67" level="project" />
   </component>
 </module>

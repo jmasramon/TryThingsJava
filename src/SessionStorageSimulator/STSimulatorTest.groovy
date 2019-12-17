@@ -11,25 +11,36 @@ class STSimulatorTest extends GroovyTestCase {
     }
 
     void testSimulateVisits() {
-        Simulation simulation = simulator.simulateVisits(new Simulation(), 3)
+        Simulation emptySimulation = new Simulation()
+        assertEquals(0, emptySimulation.getNumVisits())
+
+        Simulation simulation = simulator.simulateVisits(emptySimulation, 3)
 
         assertNotNull(simulation)
+        assertEquals(emptySimulation, simulation)
         assertEquals(3, simulation.getNumVisits())
 
+        Simulation oldSimulation = simulation
         simulation = simulator.simulateVisits(simulation, 2);
 
+        assertEquals(oldSimulation, simulation)
         assertEquals(5, simulation.getNumVisits())
 
-        assertEquals(new VisitId(1), simulation.getVisit(new VisitId(1)).getVisitId())
-        assertEquals(new VisitId(3), simulation.getVisit(new VisitId(3)).getVisitId())
-        assertEquals(new VisitId(5), simulation.getVisit(new VisitId(5)).getVisitId())
+        assertEquals(VisitId.getVisitId(1), simulation.getVisit(VisitId.getVisitId(1)).getVisitId())
+        assertEquals(VisitId.getVisitId(3), simulation.getVisit(VisitId.getVisitId(3)).getVisitId())
+        assertEquals(VisitId.getVisitId(5), simulation.getVisit(VisitId.getVisitId(5)).getVisitId())
+        assertEquals(VisitId.getVisitId(2), simulation.getVisit(VisitId.getVisitId(2)).getVisitId())
+        assertEquals(VisitId.getVisitId(4), simulation.getVisit(VisitId.getVisitId(4)).getVisitId())
 
-        assertEquals([new VisitId(1),new VisitId(2),new VisitId(3),new VisitId(4),new VisitId(5)], simulation.getVisitIds())
+        // TODO: We should check that the visits created are correct (once we make them realistic)
 
-        assertEquals(null, simulation.getVisit(new VisitId(2)))
-//        assertEquals(new Simulation(), simulation)
+        // Needs to create data in Session Storage too
     }
 
     void testSimulateReplay() {
+        Simulation emptySimulation = new Simulation()
+        Simulation simulation = simulator.simulateVisits(emptySimulation, 3)
+
+        simulator.simulateReplay(simulation, VisitId.getVisitId(2))
     }
 }

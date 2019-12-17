@@ -1,9 +1,23 @@
 package SessionStorageSimulator.shared;
 
+import java.util.HashMap;
+
+// TODO: visits should be immutable
 public class VisitId {
+    static private HashMap<Integer, VisitId> visitIds = new HashMap<>();
+
+    static public VisitId getVisitId(int id) {
+        VisitId existing = visitIds.get(id);
+        if (existing == null) {
+            visitIds.put(id, new VisitId(id));
+            existing = visitIds.get(id);
+        }
+        return existing;
+    }
+
     final private int id;
 
-    public VisitId(int id) {
+    private VisitId(int id) {
         this.id = id;
     }
 
